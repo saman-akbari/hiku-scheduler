@@ -1,0 +1,32 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+bin/
+hack/
+tmp/
+
+# Test binary, build with `go test -c`
+*.test
+
+# IDE or Editor
+.vscode/
+.idea/
+
+# Python
+.venv/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform/aws/
+
+# Misc
+*.log
+*.csv
+results/
+worker-*/
+worker_config/
+plots/

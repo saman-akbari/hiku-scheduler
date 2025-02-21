@@ -1,0 +1,50 @@
+# Custom Matplotlib styling
+
+## Colors
+axes.prop_cycle : (cycler('color', ["0d49fb", "e6091c", "26eb47", "8936df", "fec32d", "25d7fd"]) + cycler('ls', ['-', '--', '-.', ':', '-', '--']))
+
+## Font
+font.size : 18
+mathtext.fontset : dejavuserif
+pdf.fonttype : 42
+
+## Axis
+axes.spines.top : False
+axes.spines.right : False
+
+## x-axis
+xtick.major.size : 4
+xtick.top : True
+xtick.minor.top : False
+xtick.major.top : False
+
+## y-axis
+ytick.major.size : 4
+ytick.right : True
+ytick.minor.right : False
+ytick.major.right : False
+
+## Padding
+xtick.major.pad : 10
+ytick.major.pad : 10
+axes.labelpad : 10
+axes.titlepad : 15
+
+## Linewidth
+lines.linewidth : 2.5
+
+## Legend
+legend.frameon : False
+legend.fontsize : 24
+
+## Figure
+savefig.dpi : 600
+savefig.bbox : tight
+savefig.pad_inches : 0.05
+savefig.format : pdf
+figure.autolayout : True
+figure.figsize : 6.4, 4
+
+## LaTeX
+text.usetex : True
+text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb}
