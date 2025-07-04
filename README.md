@@ -16,6 +16,27 @@ To use it with other platforms, you will need to modify the API endpoints to mat
 - **Lightweight:** Minimal resource overhead.
 - **Ready to Use:** Provides scripts for automated deployment and evaluation on AWS and local environments.
 
+
+## Paper
+
+S. Akbari and M. Hauswirth, ‘Hiku: Pull-Based Scheduling for Serverless Computing’, in 2025 IEEE 25th International Symposium on Cluster, Cloud and Internet Computing (CCGrid), 2025, pp. 450–461.
+
+[![DOI](https://zenodo.org/badge/doi/10.1109/CCGRID64434.2025.00034.svg)](https://dx.doi.org/10.1109/CCGRID64434.2025.00034)
+[![arXiv](https://img.shields.io/badge/arXiv-2502.15534-B31B1B.svg)](https://arxiv.org/abs/2502.15534)
+
+### Citation
+
+```bibtex
+@inproceedings{akbari2025hiku,
+  title={Hiku: Pull-Based Scheduling for Serverless Computing},
+  author={Akbari, Saman and Hauswirth, Manfred},
+  booktitle={2025 IEEE 25th International Symposium on Cluster, Cloud and Internet Computing (CCGrid)},
+  pages={450--461},
+  year={2025},
+  organization={IEEE}
+}
+```
+
 ## Prerequisites
 
 ### Software Requirements
